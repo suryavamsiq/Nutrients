@@ -16,7 +16,6 @@ import numpy as np
 loaded_model=pickle.load(open('trainedmodel1.sav','rb'))
 import streamlit as st
 import pandas as pd
-encoder=LabelEncoder()
 
 def prediction(input_data):
     new_data = pd.DataFrame({'rainfall': [input_data[0]], 'temperature': [input_data[1]], 'humidity': [input_data[2]], 'ph': [input_data[3]], 'label': [input_data[4]]})
