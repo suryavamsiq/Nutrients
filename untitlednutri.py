@@ -13,7 +13,7 @@ Created on Sun Dec 24 10:56:34 2023
 
 import pickle
 import numpy as np
-loaded_model=pickle.load(open('C:/Users/c surya vamsi/Downloads/trainedmodel1.sav','rb'))
+loaded_model=pickle.load(open('trainedmodel1.sav','rb'))
 import streamlit as st
 from sklearn.preprocessing import LabelEncoder
 import pandas as pd
