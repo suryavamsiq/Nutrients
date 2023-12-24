@@ -15,7 +15,6 @@ import pickle
 import numpy as np
 loaded_model=pickle.load(open('trainedmodel1.sav','rb'))
 import streamlit as st
-from sklearn.preprocessing import LabelEncoder
 import pandas as pd
 encoder=LabelEncoder()
 
